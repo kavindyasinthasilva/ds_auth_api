@@ -8,5 +8,5 @@ COPY . /app
 RUN composer install
 
 CMD git Pull
-CMD php artisan serve --host=00.00.00.00 --port=80
-EXPOSE 80
+CMD php artisan serve --host=00.00.00.00 --port=8181
+EXPOSE 8181
